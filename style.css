@@ -1,0 +1,135 @@
+  nav ul{
+      float: right; 
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 5px; 
+  }
+
+  .headshift{
+      background-color: #201d2df2; 
+      width: 100%;
+  } 
+
+  .shoshi{
+    position: fixed;
+    width: 100%;
+    background: #201d2df2;
+  }
+
+  .backcol{
+    font-size: 20px;
+    text-align: center;
+    padding: 200px;
+    background-image: url('schedule.jpg');
+  }
+  .nexbody{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+  }
+  .backimg{
+    font-size: 20px;
+    text-align: center;
+    padding: 100px;
+    background-image: url('cta.jpg');
+  }
+  td{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  .xyx{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid black;
+    margin: 15px;
+    padding: 20px;
+    border-color: #ccc;
+  }
+  .cvh{
+    border-color: white;
+  }
+  #contact-us #map {
+      margin-bottom: -7px;
+    }
+    #contact-us .contact-form {
+      padding: 30px;
+    }
+    #contact-us .contact-form #contact {
+      padding: 30px;
+    }
+
+  .contact-form button:hover {
+    background-color: #f9735b;
+  }
+  .contact-form button {
+    display: inline-block;
+    font-size: 13px;
+    padding: 11px 17px;
+    background-color: #ed563b;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: all .3s;
+    border: none;
+    outline: none;
+  }
+
+  .contact-form ::placeholder {
+    color: #7a7a7a;
+  }
+
+  #contact-us {
+    margin-top: 140px;
+  }
+
+  #contact-us .container-fluid .col-lg-6 {
+    padding: 0px;
+  }
+
+  #contact-us .contact-form {
+    padding: 80px;
+    background-image: url(../images/contact-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #contact-us .contact-form #contact {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    color: #7a7a7a;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    line-height: 40px;
+    padding: 0px 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-bottom: 30px;
+  }
+
+  .contact-form textarea {
+    height: 150px;
+    resize: none;
+  }
+
+  .contact-form ::-webkit-input-placeholder {
+    color: #7a7a7a;
+  }
+
+  .contact-form :-ms-input-placeholder {
+    color: #7a7a7a;
+  }	
